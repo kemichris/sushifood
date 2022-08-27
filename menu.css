@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Mulish:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 3.125rem;
+    margin-top: 2rem;
+    width: 20rem;
+    margin-left: 1.5rem;
+    border-bottom: 2px solid #f1d5bb;
+}
+
+h2 {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #f1d5bb;
+    font-weight: 800;
+    font-size: 4rem;
+    margin: 0 3rem 3rem;
+}
+
+.menu {
+    background-color: black;
+    height: 50rem;
+    width: 8.25rem;
+    margin:2rem 2rem 5rem 2rem;
+    border-radius: 1.5rem;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.icon {
+    margin: 0 3rem;
+    padding-bottom: 4rem;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.icon:hover {
+    color: #f1d5bb;
+}
+
+#foodMenu {
+    background-color: #f1d5bb;
+    width: 8.25rem;
+    padding: 3rem 3rem;
+    margin-bottom: 4rem;
+
+}
+
+
+.img {
+    width: 14rem;
+    height: 17.1875rem;
+}
+
+.wrapper, .itemline1, .itemline2 {
+    display: flex;    
+}
+
+.div1, .div2, .div3, .div4 {
+    margin: 2rem 1.5rem 1.5rem 1.5rem;
+    text-align: center; 
+    font-family: 'Mulish', sans-serif;
+}
+
+ .div5, .div6, .div7, .div8 {
+    text-align: center; 
+    font-family: 'Mulish', sans-serif;
+    margin: 1rem 1.5rem 0 1.5rem;
+
+}
+
+button {
+   margin-top: 1rem;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.25rem;
+    padding: 0.5rem 2rem;
+    margin-left: 29rem;
+    color: white;
+    background-color: black;
+
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
+footer {
+    font-family: 'Mulish', sans-serif;
+    padding-bottom: 1rem;
+    font-size: 0.9375rem;
+    margin-left: 14rem;
+}
